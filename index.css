@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+   
+}
+
+body{
+    background-color:#fff;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 40px;
+   
+} 
+.views{
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 60px; */
+    text-decoration: none;
+}
+
+.nav-bar{
+    /* border: 1px solid red; */
+    /* width: 40%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.nav-bar a{
+/* border: 1px solid green; */
+   color: #222222;
+   font-size: 16px;
+   /* display: block; */
+   text-decoration: none;
+   font-weight:600 ;
+}
+
+.nav-bar a:not(:last-child){
+   margin-right: 24px;
+}
+
+#first-page{
+     /* border: 1px solid red;  */
+    /* margin-top: 18px;
+    margin-left: 74px;
+    margin-right: 124px; */
+    margin: 40px;
+}
+
+.flex-div{
+    display: flex;
+    justify-content:space-between ;
+    /* align-items: center; */
+}
+
+.flex-div2{
+    /* display: flex; */
+    /* align-items: space-evenly;
+    justify-content:space-between ; */
+}
+
+.company-img{
+    width: 450px;
+    height: 450px;
+}
+
+
+h2{
+    color: #222222;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    line-height: 70px;
+    
+}
+small{
+    /* color: #222222;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;  */
+
+}
+h3{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.more-info {
+    
+    display: flex;
+    gap: 18px;
+
+
+}
+.more-info a{
+    text-decoration: none;
+    border: 1px solid #222222;
+    border-radius: 2px;
+    color: #222222;
+    background-color:#407BFF;
+    padding: 8px 20px 8px 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.more-info a:hover{
+    color: #fff;
+}
+.more-info a:not(:last-child){
+    background-color: #407BFF;
+}
+h1{
+  margin: 25px 400px 25px 400px;
+  font-size: 25px;
+  font-weight: 600;
+}
+button{
+    margin-left: 400px;
+    border:  1px solid  #888888;
+    border-radius: 10px;
+    background-color: #fff;
+    
+
+    font-weight: normal;
+    
+ }  
+ .search{
+    display: flex;
+    justify-content: space-between;
+ }
+ h5{
+    font-size: 25px;
+    line-height: 35px;
+ }
+ h6{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+ }
